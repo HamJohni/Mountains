@@ -1,0 +1,107 @@
+.travel{
+    padding: 120px 0 147px;
+    position: relative;
+}
+.travel::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(2.4deg, #000000 12.72%, rgba(0, 0, 0, 0.633721) 44.36%, rgba(0, 0, 0, 0) 70.61%);
+    z-index: -1;
+    height: 725px;
+    width: 100%;
+}
+.travel__title{
+     font-family: 'Inter', sans-serif;
+     font-weight: 700;
+     font-size: 48px;
+     line-height: 56px;
+     color: #121212;
+}
+.travel__text{
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    line-height: 32px;
+    color: #313131;
+    opacity: 0.8;
+    margin: 27px 0 35px;
+}
+.travel__icon{
+    display: flex;
+    column-gap: 64px;
+    margin: 64px 0 381px;
+    position: relative;
+}
+.travel__icon::after{
+    content: url("../image/travel-airplane.png");
+    position: absolute;
+    right: -136px;
+    bottom: -334px;
+}
+.travel__icon::before{
+    font-weight: bold;
+    font-family: 'lato', sans-serif;
+    content: 'КАМЧАТКА';
+    position: absolute;
+    right: -136px;
+    bottom: -200px;
+    font-size: 190px;
+    opacity: 0.22;
+}
+.icon__icon{
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+.complexity{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #212121;
+}
+.icon__text{
+    font-family: 'Lato',sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #212121;
+}
+.travel__text3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+.travel__text4{
+    font-family: 'Lato',sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #DEDEDE;
+    margin: 32px 0 13px;
+}
+.travel__link{
+    font-family: 'Lato',sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+.link__max{
+    text-decoration: underline;
+    font-family: 'Lato',sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+.travel__bg{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 900px;
+    z-index: -3;
+}

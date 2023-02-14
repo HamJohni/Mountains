@@ -1,0 +1,33 @@
+.header{
+    padding-top: 36px;
+    background: transparent;
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+}
+.section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__content{
+    display: flex;
+    column-gap: 64px;
+    align-items: center;
+}
+.header__menu{
+    display: flex;
+    column-gap: 56px;
+}
+.menu__link{
+    color: var(--green);
+}
+.btn{
+    color: var(--green);
+    background: transparent;
+    padding: 11px 32px 10px;
+    border-radius: 5px;
+    border: 1px solid;
+    cursor: pointer;
+}

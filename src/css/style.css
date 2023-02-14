@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    list-style-type: none;
+    resize: none;
+}
+:root{
+    --green: #275553;
+    --orange:#F47648;
+    --white:#FFFFFF;
+    --black:#212121;
+    --dark-grey: #5A5A5A;
+    --grey:#BABABA;
+}
+.container{
+    max-width: 1246px;
+    width: 100%;
+    margin: 0 auto;
+}
+.day-title{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    color: #FFFFFF;
+}
+.travel__text2{
+    opacity: 0.8;
+    color: #313131;
+}
+.day-text{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ACACAC;
+}
+.orange{
+    color: var(--orange);
+}

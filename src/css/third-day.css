@@ -1,0 +1,46 @@
+.third-day{
+    padding-bottom:287px;
+    margin-top: 80px;
+    background: url("../image/day3__bg.png") center/cover no-repeat;
+    position: relative;
+}
+.third-day::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 252px;
+    left: 0;
+    top: 20%;
+    z-index: 2;
+    background: linear-gradient(179.37deg, #FFFFFF 1.87%, rgba(255, 255, 255, 0.572235) 58.73%, rgba(255, 255, 255, 0) 94.86%);
+}
+.third-day::after{
+    /*content: url("../image/day3__black-bg.png");*/
+    /*position: absolute;*/
+    /*bottom: -5px;*/
+    /*left: 0;*/
+    /*width: 100%;*/
+
+
+    content: '';
+    position: absolute;
+    width: 100%;
+    height:250px;
+    left: 0;
+    bottom: 0;
+    background: linear-gradient(360.23deg, #000000 23.35%, rgba(0, 0, 0, 0.572235) 60.21%, rgba(0, 0, 0, 0) 88.82%);
+
+    z-index: 2;
+}
+.third-day__content{
+    margin-left: 750px;
+    position: relative;
+    z-index: 2;
+}
+.third-day__slide{
+    display: flex;
+    position: absolute;
+    top: 42px;
+    left: 43px;
+    column-gap: 32px;
+}

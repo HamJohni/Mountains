@@ -1,0 +1,86 @@
+.second-day{
+    padding: 65px 0 70px;
+    z-index: -3;
+    position: relative;
+    background-color:#F5F6F6;
+}
+.black{
+    color :#313131;
+    margin: 48px 0 64px;
+}
+.monument__title{
+    font-family: 'Lato',sans-serif;
+    font-weight: 700;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.monument__text{
+    font-family: 'Lato',sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #BABABA;
+}
+.second-day__slide{
+    position: relative;
+    display: flex;
+    bottom: 0;
+    left: -160px;
+}
+.slide-monument{
+    position: relative;
+    width: 320px;
+    height: 320px;
+    z-index: 2;
+}
+.slide-monument::after{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    bottom: 18px;
+    left: 11px;
+    width: 93%;
+    height: 160px;
+    background: linear-gradient(179.37deg, #000000 1.87%, rgba(0, 0, 0, 0.572235) 58.73%, rgba(0, 0, 0, 0) 94.86%);
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+.monument__img{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: -2;
+}
+.monument__content{
+    position: absolute;
+    bottom: 24px;
+    left: 20px
+}
+.monument__right{
+    font-family: 'Lato',sans-serif;
+    line-height: 24px;
+    color: #313131;
+    position: absolute;
+    right: 97px;
+    bottom: 93px;
+}
+
+.second-day__mountain{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -2;
+}
+.mountain__img{
+    position: absolute;
+    top: 40px;
+    right: 0;
+    z-index: -10;
+}
+.mountain__cloud{
+    position: absolute;
+    top: 332px;
+    right: 0;
+    z-index: -1;
+    width:725px;
+}
+

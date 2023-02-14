@@ -1,0 +1,43 @@
+.route{
+    padding: 80px 0 80px;
+    background-color: #F1F1F1;
+}
+.route__title{
+    font-family: 'Inter',sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 28px;
+    color: #000000;
+    margin-bottom: 48px;
+}
+.route__card{
+    display: flex;
+    column-gap: 32px;
+}
+.route__slide{
+    background-color: #FFFFFF;
+    width: 288px;
+    border-radius: 5px 5px 0 0;
+}
+.route__img{
+    width: 100%;
+}
+.card__content{
+    padding: 32px 24px 32px;
+}
+.card__title{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #212121;
+    margin-bottom: 4px;
+}
+.route__text{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #5A5A5A;
+}
+
+

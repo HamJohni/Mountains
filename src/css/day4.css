@@ -1,0 +1,21 @@
+.day4{
+    padding: 105px 0 98px;
+    background-color: #000000;
+    position: relative;
+}
+.white-bottom{
+    margin-bottom: 48px;
+    color: #FFFFFF;
+}
+.day4-block{
+    display: flex;
+    column-gap: 32px;
+    position: absolute;
+    top: 105px;
+    right: 55px
+}
+.day4__bird{
+    position: absolute;
+    bottom: 0;
+    right: 148px
+}
